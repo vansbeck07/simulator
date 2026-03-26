@@ -1,0 +1,171 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1f08ce6fb224fcf3694bbfcd8a855069",
+    "packages": [
+        {
+            "name": "vansbeck07/dotenv",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vansbeck07/dotenv.git",
+                "reference": "342d574d06deb018ea044792bd9864745ebcea2c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vansbeck07/dotenv/zipball/342d574d06deb018ea044792bd9864745ebcea2c",
+                "reference": "342d574d06deb018ea044792bd9864745ebcea2c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "nunomaduro/collision": "^5.1",
+                "phpunit/phpunit": "^9.4"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/env.php",
+                    "src/env_namespaced.php"
+                ],
+                "psr-4": {
+                    "Vansbeck07\\Dotenv\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Evans Owusu Ofori",
+                    "email": "vansbeck07@gmail.com",
+                    "homepage": "https://github.com/vansbeck07",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Make easy access to the environment variables in your application",
+            "homepage": "https://github.com/vansbeck07/dotenv",
+            "keywords": [
+                "dotenv",
+                "env",
+                "phpdotenv"
+            ],
+            "support": {
+                "issues": "https://github.com/vansbeck07/dotenv/issues",
+                "source": "https://github.com/vansbeck07/dotenv/tree/v1.0.0"
+            },
+            "time": "2021-05-22T14:41:59+00:00"
+        },
+        {
+            "name": "vansbeck07/notify",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vansbeck07/notify.git",
+                "reference": "8d145823d2ae5860a2b94191e635b6916408b144"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vansbeck07/notify/zipball/8d145823d2ae5860a2b94191e635b6916408b144",
+                "reference": "8d145823d2ae5860a2b94191e635b6916408b144",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "nunomaduro/collision": "^5.1",
+                "phpunit/phpunit": "^9.2.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Vansbeck07\\Notify\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Evans Owusu Ofori",
+                    "email": "vansbeck07@gmail.com",
+                    "homepage": "https://vansbeck07.github.io",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Simple log package",
+            "homepage": "https://github.com/vansbeck07/notify",
+            "support": {
+                "issues": "https://github.com/vansbeck07/notify/issues",
+                "source": "https://github.com/vansbeck07/notify/tree/v0.1.0"
+            },
+            "time": "2021-04-30T13:56:33+00:00"
+        },
+        {
+            "name": "vansbeck07/phputils",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Vansbeck07/phputils.git",
+                "reference": "dccaee407663590845b4bc91dcd6da9a268cba7b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Vansbeck07/phputils/zipball/dccaee407663590845b4bc91dcd6da9a268cba7b",
+                "reference": "dccaee407663590845b4bc91dcd6da9a268cba7b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Vansbeck07\\Utils\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Evans Owusu Ofori",
+                    "email": "vansbeck07@gmail.com",
+                    "homepage": "https://github.com/Vansbeck07",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP Utilities classes",
+            "homepage": "https://github.com/Vansbeck07/phputils",
+            "keywords": [
+                "php",
+                "utils"
+            ],
+            "support": {
+                "issues": "https://github.com/Vansbeck07/phputils/issues",
+                "source": "https://github.com/Vansbeck07/phputils/tree/master"
+            },
+            "time": "2020-06-08T14:03:02+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8.3"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
+}

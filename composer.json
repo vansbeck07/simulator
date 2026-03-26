@@ -1,0 +1,40 @@
+{
+  "name": "splash/simulator",
+  "type": "application",
+  "description": "Phone simulator for USSD application testing.",
+  "keywords": [
+    "ussd",
+    "simulator",
+    "ussd-simulator"
+  ],
+  "homepage": "https://github.com/splash-framework/simulator",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Evans Owusu Ofori",
+      "email": "vansbeck07@gmail.com",
+      "role": "Maintainer",
+      "homepage": "https://github.com/vanbeck07"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.3",
+    "vansbeck07/dotenv": "^1.0",
+    "vansbeck07/notify": "^0.1",
+    "vansbeck07/phputils": "^0.1"
+  },
+  "config": {
+    "optimize-autoloader": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Splash\\Simulator\\Libs\\": "src/libs/"
+    }
+  },
+  "scripts": {
+    "post-root-package-install": [
+      "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+    ]
+  }
+}
