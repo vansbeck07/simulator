@@ -1,5 +1,5 @@
 {
-  "name": "splash/simulator",
+  "name": "vansbeck07/simulator",
   "type": "application",
   "description": "Phone simulator for USSD application testing.",
   "keywords": [
@@ -7,7 +7,7 @@
     "simulator",
     "ussd-simulator"
   ],
-  "homepage": "https://github.com/splash-framework/simulator",
+  "homepage": "https://github.com/vansbeck07/simulator",
   "license": "MIT",
   "authors": [
     {
@@ -18,6 +18,41 @@
     }
   ],
   "minimum-stability": "stable",
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "vansbeck07/dotenv",
+        "version": "1.0.0",
+        "dist": {
+          "url": "https://github.com/vansbeck07/dotenv/archive/1ef233a1bb5613fc17b96abab19726b40c04381f.zip",
+          "type": "zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "vansbeck07/notify",
+        "version": "0.1.0",
+        "dist": {
+          "url": "https://github.com/vansbeck07/notify/archive/afad00876c011d926e4621c9d87d11d06404d3af.zip",
+          "type": "zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "vansbeck07/phputils",
+        "version": "0.1.0",
+        "dist": {
+          "url": "https://github.com/vansbeck07/phputils/archive/c99c5984ec26e1fd7dfe88f832bb7a2fce57934c.zip",
+          "type": "zip"
+        }
+      }
+    }
+  ],
   "require": {
     "php": "^8.3",
     "vansbeck07/dotenv": "^1.0",
@@ -25,6 +60,9 @@
     "vansbeck07/phputils": "^0.1"
   },
   "config": {
+    "github-protocols": [
+      "https"
+    ],
     "optimize-autoloader": true
   },
   "autoload": {
