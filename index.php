@@ -5,7 +5,7 @@
 
     require_once file_exists($hostAutoload) ? $hostAutoload : $localAutoload;
 
-    use function Vanbeck07\Dotenv\env;
+    use function vansbeck07\Dotenv\env;
     use Splash\Simulator\Libs\Simulator;
 
     $env = env('APP_ENV', 'prod');

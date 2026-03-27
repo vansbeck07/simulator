@@ -1,5 +1,5 @@
 {
-  "name": "vansbeck07/simulator",
+  "name": "splash/simulator",
   "type": "application",
   "description": "Phone simulator for USSD application testing.",
   "keywords": [
@@ -14,7 +14,7 @@
       "name": "Evans Owusu Ofori",
       "email": "vansbeck07@gmail.com",
       "role": "Maintainer",
-      "homepage": "https://github.com/vanbeck07"
+      "homepage": "https://github.com/vansbeck07"
     }
   ],
   "minimum-stability": "stable",
